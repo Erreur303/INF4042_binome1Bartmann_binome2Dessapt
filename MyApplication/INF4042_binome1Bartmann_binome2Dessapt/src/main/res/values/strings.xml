@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tuto Concept Android</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_app">This is my new Application!</string>
+
+    <string name="ceci_activity">Ceci \n est une \n Activity</string>
+    <string name="timer_value">05:00</string>
+
+    <string name="ceci_texte">et ceci est \n du texte !</string>
+
+    <string name="ceci_button">Ceci est \n un button !</string>
+
+    <string name="text_actionbar">Ceci est une ActionBar.\n\n Une ActionBar est une option  de la fenêtre qui indique la location de l\'utilisateur et qui permet à celui-ci d\'effectuer des actions et de naviguer. </string>
+</resources>

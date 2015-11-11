@@ -36,7 +36,6 @@ public class ToastActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View arg0) {
-
                 Toast.makeText(ToastActivity.this, getString(R.string.toast_affiche), Toast.LENGTH_SHORT).show();
             }
         });

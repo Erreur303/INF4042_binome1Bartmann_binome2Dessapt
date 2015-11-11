@@ -26,12 +26,12 @@ public class IntentActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
     }
 
-    public void setOnClickListener(Button button) {
 
-        public void onClick(Button button) {
 
+    public void onClickListener() {
             switch(button.getId()) {
                 case R.id.buttonIntent1:
                     Toast.makeText(IntentActivity.this, "button1", Toast.LENGTH_SHORT).show();
@@ -46,7 +46,7 @@ public class IntentActivity extends AppCompatActivity {
                     break;
             }
         }
-    }
+
 
         // FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         // fab.setOnClickListener(new View.OnClickListener() {

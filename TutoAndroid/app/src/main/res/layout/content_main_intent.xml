@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textIntent1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:text="@string/text_intent1"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp" />
+
+    <TextView
+        android:id="@+id/textExempleIntent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="@string/intent_exemple"
+        android:layout_below="@+id/textIntent1"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="78dp" />
+
+    <Button
+        android:id="@+id/buttonIntent1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intent_button_timer"
+        android:layout_below="@id/textExempleIntent"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/buttonIntent2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intent_button_photo"
+        android:layout_below="@+id/buttonIntent1"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/buttonIntent3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intent_button_contact"
+        android:layout_below="@+id/buttonIntent2"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="onClick"/>
+</RelativeLayout>

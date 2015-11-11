@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity {
+public class TextActivity extends AppCompatActivity {
 
     float x1,x2;
     float y1, y2;
@@ -19,53 +19,51 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
-
-       // FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-       // fab.setOnClickListener(new View.OnClickListener() {
-       //     @Override
-       //     public void onClick(View view) {
-       //         Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-       //                 .setAction("Action", null).show();
-       //     }
-       // });
+        setContentView(R.layout.text_main);
     }
 
     // MotionEvent (Swipe)
-    public boolean onTouchEvent(MotionEvent touchevent) {
-        switch (touchevent.getAction()) {
+    public boolean onTouchEvent(MotionEvent touchevent)
+    {
+        switch (touchevent.getAction())
+        {
             // when user first touches the screen we get x and y coordinate
-            case MotionEvent.ACTION_DOWN:{
+            case MotionEvent.ACTION_DOWN:
+            {
                 x1 = touchevent.getX();
                 y1 = touchevent.getY();
                 break;
             }
-            case MotionEvent.ACTION_UP:{
+            case MotionEvent.ACTION_UP:
+            {
                 x2 = touchevent.getX();
                 y2 = touchevent.getY();
+
                 //if left to right sweep event on screen
-                if (x1 < x2){
-                    Intent i = new Intent(getApplicationContext(),TextActivity.class);
+                if (x1 < x2)
+                {
+                    Intent i = new Intent(getApplicationContext(),ButtonActivity.class);
                     startActivity(i);
                 }
 
                 // if right to left sweep event on screen
-                if (x1 > x2){
-                    Intent i = new Intent(getApplicationContext(),TextActivity.class);
+                if (x1 > x2)
+                {
+                    Intent i = new Intent(getApplicationContext(),ButtonActivity.class);
                     startActivity(i);
                 }
 
                 // if UP to Down sweep event on screen
-                if (y1 < y2){
-                    Intent i = new Intent(getApplicationContext(),TextActivity.class);
+                if (y1 < y2)
+                {
+                    Intent i = new Intent(getApplicationContext(),ButtonActivity.class);
                     startActivity(i);
                 }
 
                 //if Down to UP sweep event on screen
-                if (y1 > y2){
-                    Intent i = new Intent(getApplicationContext(),TextActivity.class);
+                if (y1 > y2)
+                {
+                    Intent i = new Intent(getApplicationContext(),ButtonActivity.class);
                     startActivity(i);
                 }
                 break;

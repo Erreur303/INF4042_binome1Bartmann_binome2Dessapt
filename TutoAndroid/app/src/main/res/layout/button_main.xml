@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity">
+    tools:context=".ButtonActivity">
 
 
     <android.support.design.widget.AppBarLayout
@@ -25,7 +25,7 @@
     </android.support.design.widget.AppBarLayout>
 
     <!-- Inclusion du contenu de content_main.xml -->
-    <include layout="@layout/content_main" />
+    <include layout="@layout/content_main_button" />
 
     <!-- Flotting  Button
     <android.support.design.widget.FloatingActionButton

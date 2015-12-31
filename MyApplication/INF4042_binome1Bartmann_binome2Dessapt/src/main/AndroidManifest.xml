@@ -31,7 +31,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
+            android:label="@string/act1"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,37 +41,37 @@
         </activity>
         <activity
             android:name=".ButtonActivity"
-            android:label="@string/app_name"
+            android:label="@string/act7"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
             android:name=".TextActivity"
-            android:label="@string/app_name"
+            android:label="@string/act2"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
             android:name=".ActionBarActivity"
-            android:label="@string/title_actionBar"
+            android:label="@string/act3"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
             android:name=".ToastActivity"
-            android:label="@string/app_name"
+            android:label="@string/act4"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
             android:name=".RecyclerActivity"
-            android:label="@string/app_name"
+            android:label="@string/act8"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
             android:name=".DownloadActivity"
-            android:label="@string/app_name"
+            android:label="@string/act5"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
             android:name=".ReadmeActivity"
-            android:label="@string/app_name"
+            android:label="@string/act6"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
 

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Tuto Concept Android</string>
+    <string name="readme">README</string>
+    <string name="new_app">This is my new Application!</string>
+
+    <string name="ceci_activity">Ceci est une</string>
+    <string name="activity">Activity</string>
+    <string name="quezako_activity1">Une Activity est le composant d\'une application qui permet d\'ouvrir une fenêtre avec laquelle l\'utilisateur -toi- peut intéragir.</string>
+    <string name="quezako_activity2">Une  activity te permet de composer l\'interface utilisateur.</string>
+    <string name="slide_continue">Slide vers la gauche pour continuer =)</string>
+
+    <string name="ceci_texte1">Et ceci est</string>
+    <string name="ceci_texte2"> \n du <b>Texte</b> !</string>
+    <string name="quezako_texte1">Pour insérer du texte \"proprement\", il faut utiliser dans le dossier <i>\'values\'</i> le fichier <i>\'strings.xml\'</i>\n\nOn fait référence à cette chaîne de caractères dans le <i>\'layout\'</i> correspondant à l\'aide de <i>\'@string/nomDeLaChaîne\'</i>.</string>
+
+    <string name="ceci_button1">Juste en dessous,\n ceci est un </string>
+    <string name="ceci_button2"><b>Button</b> !</string>
+    <string name="clique_moi">Clique \n sur moi ;)</string>
+
+    <string name="title_actionBar">ActionBar</string>
+    <string name="text_actionbar1">Ceci est une <b>ActionBar</b>.\n\n</string>
+    <string name="text_actionbar2"> Une ActionBar est une option  de la fenêtre qui indique la location de l\'utilisateur et qui permet à celui-ci d\'effectuer des actions et de naviguer. </string>
+    <string name="text_actionbar3">Pour continuer, \nappuie sur le button en haut à droite ;)</string>
+    <string name="text_choix">Choisis le prochain standard Android à découvrir.</string>
+
+    <string name="toast_item">Toast</string>
+    <string name="intent_item">Intent</string>
+    <string name="recycler_item">Recycler View</string>
+    <string name="download_item">Téléchargement</string>
+
+    <string name="text_toast1">Un standard Android appelé \"Toast\" (\"Pain Grillé\") ?</string>
+    <string name="text_toast2">Un Toast, grillé à point, saute du grille-pain, mais y retourne aussi vite qu\'il en est sorti. \n\nIl est est de même pour ce petit message. Discret, il apparaît et disparaît très vite. \n\nRegarde-bien l\'écran quand tu l\'affiches :p</string>
+
+    <string name="toast_button">Afficher un Toast</string>
+    <string name="toast_affiche">Voici un Toast !</string>
+
+
+    <!-- RecyclerView -->
+
+    <string name="text_download1">Comment télécharger depuis une application ?</string>
+    <string name="text_download2">Le téléchargement est une tâche réalisée en arrière-plan, pour ne pas interférer avec l\'interface utilisateur. Cela empèche l\'application de freezer par exemple. </string>
+    <string name="text_download3">Comme tout geek que nous sommes nous allons télécharger une liste de bières et leurs informations à partir d\'une URL indiquée dans le code :</string>
+    <string name="text_url">http://binouze.fabrigli.fr/bieres.json</string>
+    <string name="download_button_telechargement">Lance le Téléchargement</string>
+
+    <string name="text_download4">Une notification t\'indiquera que le téléchargement est terminé. C\'est la petite icône en haut à gauche de ton écran ;p</string>
+    <string name="text_download5">Slide vers le bas de ton éran pour voir la notif\'.</string>
+    <string name="text_rv1">Le RecyclerView est une méthode d\'affichage très souple.</string>
+    <string name="text_rv2">C\'est une boîte qui permet d\'afficher un grand nombre de données que l\'on peut faire défiler efficacement car le nombre de vues est limité.</string>
+    <string name="text_rv3">Il est très souvent utilisé pour des collections de données dont les éléments changent durant l\'exécution du programme basé sur l\'action de l\'utilisateur ou sur des événements du réseau.</string>
+
+    <string name="beer_ready">Ta liste de Bières est prête</string>
+    <string name="list_beer">Liste de Bières</string>
+
+    <!-- README -->
+    <string name="text_readme1">README</string>
+    <string name="text_readme2">Cette application Android a été réalisée par Cordélia BARTMANN et Maélie DESSAPT, étudiantes en Master 1 à l\'ESIEA.\n</string>
+    <string name="text_readme3">Elle regroupe les concepts Android suivants : \n\n  • Des interfaces graphiques de base \n  • Des élements graphiques dyanmiques \n  • Plusieurs écrans \n  •  Un service de téléchargement munie d\'une notification de fin \n  • Un traitement des données téléchargées et affichage dynamique dans une liste </string>
+</resources>

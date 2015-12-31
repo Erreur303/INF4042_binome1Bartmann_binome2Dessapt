@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textDownload1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="@string/text_download1"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        />
+
+    <TextView
+        android:id="@+id/textDownload2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="@string/text_download2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_below="@+id/textDownload1" />
+
+    <TextView
+        android:id="@+id/textDownload3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="@string/text_download3"
+        android:layout_below="@+id/textDownload2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"/>
+
+    <TextView
+        android:id="@+id/textUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#0000ff"
+        android:textStyle="italic"
+        android:text="@string/text_url"
+        android:layout_below="@+id/textDownload3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"/>
+
+    <TextView
+        android:id="@+id/textDownload4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:text="@string/text_download4"
+        android:layout_below="@+id/textUrl"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"/>
+
+    <TextView
+        android:id="@+id/textDownload5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:text="@string/text_download5"
+        android:layout_below="@+id/textDownload4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"/>
+
+    <Button
+        android:id="@+id/buttonDownload1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/download_button_telechargement"
+        android:layout_below="@id/textDownload5"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:onClick="DlBeers"
+        />
+
+    <TextView
+        android:id="@+id/textRv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="@string/text_rv1"
+        android:layout_below="@+id/buttonDownload1"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+       />
+
+    <TextView
+        android:id="@+id/textRv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:text="@string/text_rv2"
+        android:layout_below="@+id/textRv1"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:id="@+id/textRv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:text="@string/text_rv3"
+        android:layout_below="@+id/textRv2"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="5dp" />
+
+</RelativeLayout>

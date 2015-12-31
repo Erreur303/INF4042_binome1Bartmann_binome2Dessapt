@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ceciButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/ceci_button1"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:includeFontPadding="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="28sp"
+        android:layout_gravity="center_horizontal|top" />
+
+    <TextView
+        android:id="@+id/ceciButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ceciButton1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/ceci_button2"
+        android:textColor="#000000"
+
+        android:includeFontPadding="false"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="28sp"
+        android:layout_gravity="center_horizontal|top" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_below="@id/ceciButton2"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="160dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+
+        android:background="@drawable/contour_texte"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/cliqueMoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/clique_moi"
+            android:layout_centerInParent="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:bottomRightRadius="10dp"
+            android:bottomLeftRadius="10dp"
+            android:topLeftRadius="10dp"
+            android:topRightRadius="10dp"
+            android:background="@color/redButton"
+            android:onClick="onClick"
+            android:layout_gravity="center" />
+
+        <!--style="?android:attr/borderlessButtonStyle" -->
+
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Tuto Concept Android</string>
+    <string name="readme">README</string>
+    <string name="new_app">This is my new Application!</string>
+
+    <string name="ceci_activity">This is  an</string>
+    <string name="activity">Activity</string>
+    <string name="quezako_activity1">An Activity is an application component that provides a screen with which users -you- can interact in order to do something.</string>
+    <string name="quezako_activity2"> Each activity is given a window in which to draw its user interface.</string>
+    <string name="slide_continue">Slide to the left to continue =)</string>
+
+    <string name="ceci_texte1">And this is</string>
+    <string name="ceci_texte2"> \n some <b>Text</b> !</string>
+    <string name="quezako_texte1">To add "correctly" some text, you need to use in the folder <i>\'values\'</i> the file <i>\'strings.xml\'</i>\n\nThanks to <i>\'@string/nameOfTheString\'</i> you are able to make a reference to the text you want to write in the right <i>\'layout\'</i>.</string>
+
+    <string name="ceci_button1">Just below\n this is a </string>
+    <string name="ceci_button2"><b>Button</b> !</string>
+    <string name="clique_moi">Click \n me ;)</string>
+
+    <string name="text_actionbar1">This is an <b>ActionBar</b>.\n\n</string>
+    <string name="text_actionbar2"> An ActionBar is a window\'s option that specify the user\'s location and allow him to perform actions and navigate. </string>
+    <string name="text_actionbar3">To continue, \n press the top-right-handed button ;)</string>
+    <string name="text_choix">Choose the next Android standard to discover.</string>
+
+    <string name="toast_item">Toast</string>
+    <string name="intent_item">Intent</string>
+    <string name="recycler_item">Recycler View</string>
+    <string name="download_item">Downloading</string>
+
+    <string name="text_toast1">An Android Standard called \"Toast\"</string>
+    <string name="text_toast2">Once a slice of bread is toasted it jumps out the toaster and goes back in straight after. \n\nIt is exactly the same thing for this tiny little message. It subtly pops up and disapears as quickly as it came. \n\nWatch closely the screen as you display it :p</string>
+
+    <string name="toast_button">Display a Toast</string>
+    <string name="toast_affiche">This is a Toast !</string>
+
+
+    <!-- RecyclerView -->
+
+    <string name="text_download1">How to download a file from the app ?</string>
+    <string name="text_download2">The donwloading process is set as a backgroung task in order not to interfer with the user interface. It prevents the app from freezing for instance. </string>
+    <string name="text_download3">As any goog nerd, we are going to donwload a list of beers with all their informations for an URL set in the code :</string>
+    <string name="text_url">http://binouze.fabrigli.fr/bieres.json</string>
+    <string name="download_button_telechargement">Launch the Download</string>
+
+    <string name="text_download4">A notification will indicate the end of the downloading process. It is the tiny icon located in the top-left-handed corner of your screen ;p</string>
+    <string name="text_download5">Slide down Slide to the bottom of your screen to see it.</string>
+    <string name="text_rv1">The RecyclerView is a flexible display method.</string>
+    <string name="text_rv2">It is a container for displaying large data sets that can be scrolled very efficiently by maintaining a limited number of views.</string>
+    <string name="text_rv3">It is often used when you have data collections whose elements change at runtime based on user action or network events.</string>
+
+
+    <string name="beer_ready">Your Beer List is Ready</string>
+    <string name="list_beer">List of beers</string>
+
+    <!-- README -->
+    <string name="text_readme1">README</string>
+    <string name="text_readme2">This application was developed by Cordélia BARTMANN et Maélie DESSAPT, Master 1 students at ESIEA engineering school\n</string>
+    <string name="text_readme3">It gathers the following Android concepts : \n\n  • Basic graphic interfaces \n  • Dynamic graphic elements \n  • Several screens \n  •  Downloading Service fitted with a end of download warning notification \n  • Processing of the downloaded data as well as its display in a dynamic list.</string>
+</resources>
